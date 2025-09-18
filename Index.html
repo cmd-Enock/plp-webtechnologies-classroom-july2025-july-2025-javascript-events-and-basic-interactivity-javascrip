@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Enock's Interactive Web Pages </h1>
+
+ 
+  <button id="helloBtn">Click Me</button>
+  <p id="message"></p>
+
+  
+  <section>
+    <h2>Light/Dark Mode </h2>
+    <button id="toggleMode">Toggle Theme</button>
+  </section>
+
+  <section>
+    <h2>Counter Game</h2>
+    <button id="incrementBtn">+ Increase</button>
+    <button id="decrementBtn">- Reduce</button>
+    <p>Counter Value: <span id="counter">0</span></p>
+  </section>
+
+  <section>
+    <h2>FAQ (Collapsible)</h2>
+    <div class="faq">
+      <h3 class="faq-question">What is JavaScript?</h3>
+      <p class="faq-answer">JavaScript makes websites interactive ✨.</p>
+    </div>
+    <div class="faq">
+      <h3 class="faq-question">Why learn it?</h3>
+      <p class="faq-answer">Because it’s everywhere on the web 🌍.</p>
+    </div>
+  </section>
+
+
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name"></label><br>
+      <label>Email: <input type="text" id="email"></label><br>
+      <label>Password: <input type="password" id="password"></label><br>
+      <button type="submit">Register</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+  <section>
+    <h2>Tabbed Interface</h2>
+    <div class="tabs">
+      <button class="tab-btn" data-tab="tab1">Overview</button>
+      <button class="tab-btn" data-tab="tab2">Features</button>
+      <button class="tab-btn" data-tab="tab3">Contact</button>
+    </div>
+    <div class="tab-content" id="tab1">This is the Overview section 📖.</div>
+    <div class="tab-content" id="tab2">Here are some amazing Features ⚡.</div>
+    <div class="tab-content" id="tab3">Reach us via Contact page 📩.</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
